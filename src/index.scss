@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --clr-brand : #BF7506;
+  --clr-brand-500 : #DD9C3C;
+  --clr-brand-100 : #F4DEBE;
+  --clr-dark : #211B12;
+  --clr-dark-500 : #83807C;
+  --clr-dark-100 : #E7E6E4;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

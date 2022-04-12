@@ -1,0 +1,17 @@
+.navbar__header{
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end;
+
+    &-nav{
+        width: 90%;
+        &-ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            color: var(--clr-brand-500);
+            font-weight: normal;
+            font-style: normal;
+        }
+    }
+}
