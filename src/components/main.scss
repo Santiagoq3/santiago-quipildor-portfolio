@@ -25,6 +25,38 @@
                 color: var(--clr-brand-500);
             }
         }
+
+        .main__social{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            margin-top: 1em;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                flex: 0.5;
+            }
+            
+            .btn__cv{
+                display: flex;
+                align-items: center;
+                background-color: transparent;
+                outline: none;
+                border: none;
+                padding: 3px;
+                color: var(--clr-dark);
+                font-weight: 700;
+                border-bottom: 2px solid var(--clr-brand-500);
+                cursor: pointer;
+            }
+        }
     }
 
     

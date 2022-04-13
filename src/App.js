@@ -5,7 +5,7 @@ import { Navbar } from './components/Navbar';
 function App() {
   return (
     <div className="App">
-     <img src='./images/Light-brown-in-Basic61.png' />
+     <img className='App__handshake' src='./images/Light-brown-in-Basic61.png' />
      <Navbar />
      <Main />
     </div>
