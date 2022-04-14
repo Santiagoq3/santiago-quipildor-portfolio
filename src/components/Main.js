@@ -28,6 +28,8 @@ export const Main = () => {
         <div className='main_projects'>
           <ul className='projects'>
             <CardProjecto />
+            <CardProjecto />
+            <CardProjecto />
           </ul>
         </div>
     </main>

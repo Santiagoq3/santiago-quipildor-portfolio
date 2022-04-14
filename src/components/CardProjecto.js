@@ -8,7 +8,7 @@ export const CardProjecto = () => {
          <div className='cardproject__info'>
             <h3 className='cardproject__info-name-project'>Ecommerce Mobile App</h3>
             <ul className='cardproject__info-technologies'>
-                <li>
+                <li className='technologie'>
                     HTML
                 </li>
             </ul>
@@ -16,12 +16,14 @@ export const CardProjecto = () => {
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <div className='cardproject__info-actions'>
-                <button className='btn__cv'>
+                <a href='' className='btn__cv'>
+                    <img src='./images/code.png' />
                     Code
-                </button>
-                <button className='btn__cv'>
+                </a>
+                <a href='' className='btn__cv'>
+                    <img src='./images/demo.png' />
                     Demo
-                </button>
+                </a>
             </div>
          </div>
     </li>
