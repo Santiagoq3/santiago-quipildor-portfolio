@@ -77,5 +77,44 @@
         }
     }
 
+    .main__about-me{
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        &-image{
+            width: 300px;
+            height: 400px;
+        }
+
+        &-info{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin-top: 1em;
+            justify-content: space-between;
+
+            p:first-child,h2{
+                text-align: left;
+                margin-left: 15px;
+            }
+
+            p:first-child{
+                color: var(--clr-dark);
+                font-weight: bold;
+                font-size: 24px;
+
+            }
+
+            h2{
+                color: var(--clr-brand);
+                font: bold;
+                font-size: 34px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
     
 }

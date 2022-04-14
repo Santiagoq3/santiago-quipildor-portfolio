@@ -32,6 +32,16 @@ export const Main = () => {
             <CardProjecto />
           </ul>
         </div>
+        <div className='main__about-me'>
+          <img className='main__about-me-image' src='./images/avatar2.png' />
+          <div className='main__about-me-info'>
+            <p>Un gusto en conocerte,</p>
+            <h2>Soy Santiago</h2>
+            <p>Working full time in Angular, Typescript and SCSS, leading the team for revamping DotCMS administration system.</p>
+            <p>Code</p>
+            <p>Frontend is my true passion and I really enjoy the whole process of creating UIs, from the first brainstorming, wireframes, mockups, design, all the way until the final product.</p>
+          </div>
+        </div>
     </main>
   )
 }
