@@ -1,5 +1,4 @@
 .main{
-    display: flex;
     margin-top: 5em;
     font-size: 18px;
     margin-right:10px;
@@ -56,6 +55,23 @@
                 border-bottom: 2px solid var(--clr-brand-500);
                 cursor: pointer;
             }
+        }
+    }
+
+    .main__title-projects{
+        text-align: left;
+        margin-left: 15px;
+        color: var(--clr-brand);
+        font-weight: bold;
+    }
+
+    .main_projects{
+        margin-top: 2em;
+        .projects{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
         }
     }
 

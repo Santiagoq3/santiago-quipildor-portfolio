@@ -1,4 +1,5 @@
 import React from 'react'
+import { CardProjecto } from './CardProjecto'
 import "./main.scss"
 export const Main = () => {
   return (
@@ -22,6 +23,12 @@ export const Main = () => {
                 Descagar CV
               </button>
             </div>
+        </div>
+        <h2 className='main__title-projects'>Latest Projects</h2>
+        <div className='main_projects'>
+          <ul className='projects'>
+            <CardProjecto />
+          </ul>
         </div>
     </main>
   )
