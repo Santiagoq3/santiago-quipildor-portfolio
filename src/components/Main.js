@@ -1,4 +1,5 @@
 import React from 'react'
+import { technologies } from '../data/data'
 import { CardProjecto } from './CardProjecto'
 import "./main.scss"
 export const Main = () => {
@@ -41,6 +42,22 @@ export const Main = () => {
             <p>Code</p>
             <p>Frontend is my true passion and I really enjoy the whole process of creating UIs, from the first brainstorming, wireframes, mockups, design, all the way until the final product.</p>
           </div>
+        </div>
+        <div className='main__about-me-technologies'>
+          <h2>
+            My experience includes but not limited
+          </h2>
+          <ul>
+                
+                {
+                  technologies.map(t=>(
+                  <li className='technologie'>
+                    
+                    {t}
+                </li>
+                  ))
+                }
+          </ul>
         </div>
     </main>
   )
