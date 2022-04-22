@@ -25,8 +25,8 @@ export const Main = () => {
               </button>
             </div>
         </div>
-        <h2 className='main__title-projects'>Latest Projects</h2>
         <div className='main_projects'>
+          <h2 className='main__title-projects'>Latest Projects</h2>
           <ul className='projects'>
             <CardProjecto />
             <CardProjecto />

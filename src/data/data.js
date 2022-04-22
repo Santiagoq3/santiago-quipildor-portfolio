@@ -17,5 +17,5 @@ export const data = [
 
 
 export const technologies = [
-    "HTML","CSS","Javascript","React js","Next js","Node js","Express js","Nest js","Bootstrap","Tailwind Css","Typescript","MongoDB","PostgreSQl","Git","Firebase","SASS","Redux","Passport js"
+    "HTML","CSS","Javascript","React js","Next js","Node js","Express js","Nest js","Bootstrap","Tailwind Css","Typescript","MongoDB","PostgreSQL","Git","Firebase","SASS","Redux","Passport js"
 ]

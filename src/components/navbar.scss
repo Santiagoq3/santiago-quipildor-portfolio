@@ -15,3 +15,31 @@
         }
     }
 }
+
+@media (min-width: 750px) {
+
+    .navbar__header{
+        
+    
+        &-nav{
+            width: 100%;
+            &-ul{
+               
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .navbar__header{
+        
+    
+        &-nav{
+            width: 50%;
+            &-ul{
+               font-size: 24px;
+            }
+        }
+    }
+}

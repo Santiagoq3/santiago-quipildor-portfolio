@@ -9,3 +9,17 @@
   }
 }
 
+@media (min-width: 1280px) {
+
+  .App {
+  
+    .App__handshake{
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 285px;
+      height: 700px;
+    }
+  }
+}
+
