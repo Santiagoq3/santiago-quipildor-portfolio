@@ -12,6 +12,10 @@
             color: var(--clr-brand-500);
             font-weight: normal;
             font-style: normal;
+
+            li{
+                cursor: pointer;
+            }
         }
     }
 }

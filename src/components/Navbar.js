@@ -8,7 +8,6 @@ export const Navbar = () => {
                 <li>Home</li>
                 <li>Portfolio</li>
                 <li>About me</li>
-                <li>Contact</li>
             </ul>
         </nav>
     </header>

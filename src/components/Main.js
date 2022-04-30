@@ -19,10 +19,10 @@ export const Main = () => {
                   <img src='./images/github.png' />
                 </a>
               </div>
-              <button className='btn__cv'>
+              <a target={"_blank"} href='https://drive.google.com/file/d/1Kx4EgKkjd7-xuLyDFFOxIdAd5rA1BxZu/view?usp=sharing' className='btn__cv'>
                 <img src='./images/Icon.png' />
                 Descagar CV
-              </button>
+              </a>
             </div>
         </div>
         <div className='main_projects'>

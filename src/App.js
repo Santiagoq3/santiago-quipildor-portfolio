@@ -10,6 +10,7 @@ function App() {
      <Navbar />
      <Main />
      <Footer />
+     <img className='App__handpoint' src='./images/Light-brown-in-Basic51.png' />
     </div>
   );
 }
