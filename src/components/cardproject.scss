@@ -23,7 +23,7 @@
            display: flex;
            flex-wrap: wrap;
            align-items: center;
-           justify-content: space-around; 
+           gap: 10px;
            .technologie{
                padding: 5px;
                border: 1px solid var(--clr-brand);

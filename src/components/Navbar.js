@@ -6,8 +6,8 @@ export const Navbar = () => {
         <nav className='navbar__header-nav'>
             <ul className='navbar__header-nav-ul'>
                 <li>Home</li>
-                <li>Portfolio</li>
-                <li>About me</li>
+                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#aboutme'>About me</a></li>
             </ul>
         </nav>
     </header>
